@@ -7,7 +7,7 @@ export class UpdateBillAddPayed1646696385323 implements MigrationInterface {
             new TableColumn({
                 name: "is_payed",
                 type: "boolean",
-            })s
+            })
         );
     }
 
