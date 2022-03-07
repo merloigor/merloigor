@@ -1,0 +1,12 @@
+{
+    "type": "postgres",
+    "host": "kesavan.db.elephantsql.com",
+    "username": "zihpbqnz",
+    "password": "s9cepy3Nj8FGJq4w3ZPZSWiJ7yO5gUim",
+    "database": "zihpbqnz",
+    "entities": ["./src/modules/**/entities/*.ts"],
+    "migrations": ["./src/database/migrations/*.ts"],
+    "cli": {
+        "migrationsDir": "./src/database/migrations"
+    }
+}
